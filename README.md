@@ -23,6 +23,8 @@ This project aims to record daily blood [glucose](https://www.healthline.com/hea
 
 ## How to use
 
+> For css standards the default was used. [BEM CSS](https://getbem.com/introduction/)
+
 1. **Clone the repository:**
 
    ```bash
@@ -34,7 +36,27 @@ This project aims to record daily blood [glucose](https://www.healthline.com/hea
    ```bash
    cd healthCareFrontEnd
    ```
-   
+
+3. **Install the dependencies**
+
+   ```bash
+   npm install
+   ```
+
+> This command installs the dependencies/libraries described in the package.json file.
+
+4. **To run:**
+
+   ```bash
+   I used visual studio code, with it you can use the extension Live Server to run the front end
+   ```
+
+   OR
+
+   ```bash
+   navigate to the index file and open it in any browser.
+   ```
+
 ## Contribution
 
 Contributions are what make the open source community an incredible place to learn, inspire, and create. Any contribution you make will be **greatly appreciated**.
