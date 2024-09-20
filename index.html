@@ -1,8 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
-    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
-  </head>
-  <body>
-    <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
-    <script src="main.js"></script>
-  </body>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health care</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <a class="navbar__link">
+                <img src="images/icons/logo.svg" alt="Logo" class="navbar__icon">
+            </a>
+            <a href="index.html" class="navbar__link">
+                <img src="images/icons/home.svg" alt="Home" class="navbar__icon">
+            </a>
+        </nav>
+
+        <section class="section">
+            <div class="content">
+                <header>
+                    <h1 class="content__title">Health Overview</h1>
+                    <p class="content__date">September 19, 2024</p>
+                    <button class="btn-cadastrar">Cadastrar</button> <!-- Botão de cadastrar -->
+                </header>
+                <div class="cards">
+                    <div class="card">
+                        <button class="card__delete-button">X</button> <!-- Botão de exclusão -->
+                        <div class="card__header">
+                            <img src="images/icons/glicose.svg" alt="glicose" class="card__icon">
+                            <h2 class="card__title">Blood Sugar</h2>
+                        </div>
+                        <p class="card__value">80 mg/dl</p>
+                        <p class="card__status">Normal</p>
+                        <img src="images/icons/grafic.svg" alt="grafic">
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                Último cadastro no sistema: 19 de setembro de 2024
+            </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

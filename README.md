@@ -23,6 +23,8 @@ This project aims to record daily blood [glucose](https://www.healthline.com/hea
 
 ## How to use
 
+> Link [Figma](https://www.figma.com/design/VvbkROLAJJBgDXGA8N6RJq/Healthcare?node-id=1-346&t=UD9p6I0qQllXVBU5-1)
+
 > For css standards the default was used. [BEM CSS](https://getbem.com/introduction/)
 
 1. **Clone the repository:**
@@ -37,21 +39,7 @@ This project aims to record daily blood [glucose](https://www.healthline.com/hea
    cd healthCareFrontEnd
    ```
 
-3. **Install the dependencies**
-
-   ```bash
-   npm install
-   ```
-
-> This command installs the dependencies/libraries described in the package.json file.
-
 4. **To run:**
-
-   ```bash
-   I used visual studio code, with it you can use the extension Live Server to run the front end
-   ```
-
-   OR
 
    ```bash
    navigate to the index file and open it in any browser.
