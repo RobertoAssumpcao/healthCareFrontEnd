@@ -17,23 +17,23 @@
 
 ## About
 
-This project aims to record daily blood [glucose](https://www.healthline.com/health/glucose) levels for future analysis or to facilitate management, especially for people who have difficulty managing their levels, whether by recording or checking how much glucose they need to take.
+Este projeto tem como objetivo registrar [glicose](https://www.healthline.com/health/glucose) para análises futuras ou para facilitar o manejo, especialmente para pessoas que têm dificuldade em gerenciar seus níveis, seja registrando ou verificando a quantidade de glicose que precisam ingerir.
 
-**This project was inspired by my grandmother =)**
+**Este projeto foi inspirado na minha avó =) =)**
 
-## How to use
+## Como usar
 
-> Link [Figma](https://www.figma.com/design/VvbkROLAJJBgDXGA8N6RJq/Healthcare?node-id=1-346&t=UD9p6I0qQllXVBU5-1)
+> [Figma](https://www.figma.com/design/VvbkROLAJJBgDXGA8N6RJq/Healthcare?node-id=1-346&t=UD9p6I0qQllXVBU5-1)
 
-> For css standards the default was used. [BEM CSS](https://getbem.com/introduction/)
+> Para os padrões de CSS, foi utilizado o padrão [BEM CSS](https://getbem.com/introduction/).
 
-1. **Clone the repository:**
+1. **Clone o repositório:**
 
    ```bash
    git clone https://github.com/RobertoAssumpcao/healthCareFrontEnd.git
    ```
 
-2. **Navigate to the project directory:**
+2. **Navegue até o diretório do projeto:**
 
    ```bash
    cd healthCareFrontEnd
@@ -42,20 +42,20 @@ This project aims to record daily blood [glucose](https://www.healthline.com/hea
 4. **To run:**
 
    ```bash
-   navigate to the index file and open it in any browser.
+   navege até o arquivo index e abra com o seu navegador.
    ```
 
-## Contribution
+## Contribuição
 
-Contributions are what make the open source community an incredible place to learn, inspire, and create. Any contribution you make will be **greatly appreciated**.
+Contribuições são o que fazem a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
 
-If you have a suggestion that could improve this, please fork the repository and create a pull request. You can also simply open an issue. Don't forget to give the project a star! Thanks again!
+Se você tiver uma sugestão que possa melhorar este projeto, por favor, faça um fork do repositório e crie um pull request. Você também pode simplesmente abrir uma issue. Não se esqueça de dar uma estrela ao projeto! Muito obrigado!
 
-1. Fork the project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push your Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Faça um fork do projeto
+2. Crie sua Branch de Feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas alterações (`git commit -m 'Add some AmazingFeature'`)
+4. Faça o push da sua Branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
