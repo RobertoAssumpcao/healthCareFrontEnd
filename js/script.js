@@ -10,7 +10,7 @@ const getList = async () => {
         }
 
         const data = await response.json();
-        data.glicoses.forEach(item => glicosesList(item.id, item.nime, item.glicose, item.inclusao_date));
+        data.glicoses.forEach(item => glicosesList(item.id, item.nome, item.glicose, item.inclusao_data));
 
         // Chama a função para verificar o cadastro mais recente
         verificarCadastroMaisRecente(data.glicoses);
@@ -20,7 +20,7 @@ const getList = async () => {
 }
 
 // Função para inserir itens na lista
-const glicosesList = (id, name, glucose, insertion_date) => {
+const glicosesList = (id, nome, glicose, inclusao_data) => {
     const cardsContainer = document.getElementById('cards'); // A div onde os cards serão inseridos
     const maxItems = 4; // Número máximo de itens
     const currentItems = Array.from(cardsContainer.children); // Itens atuais no container
@@ -30,7 +30,7 @@ const glicosesList = (id, name, glucose, insertion_date) => {
     card.className = 'card'; // Classe para estilo
 
     // Formata a data para o formato local
-    const utcDate = new Date(insertion_date).toLocaleString('pt-br', {
+    const utcDate = new Date(inclusao_data).toLocaleString('pt-br', {
         timeZone: 'UTC',
         hour12: false,
         hour: '2-digit',
