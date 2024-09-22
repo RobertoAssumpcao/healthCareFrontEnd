@@ -42,7 +42,6 @@ body {
     height: 30px;
 }
 
-
 .content {
     flex: 1;
     padding-left: 20px;
@@ -55,6 +54,16 @@ body {
     color: #303030;
     font-size: 28px;
     margin-bottom: 0px;
+}
+
+.card__name {
+    padding: 0;
+    margin: 0;
+}
+
+.card__date {
+    padding: 0;
+    margin: 0;
 }
 
 .content__date {
@@ -75,7 +84,7 @@ body {
     border-radius: 10px;
     padding: 20px;
     width: 180px;
-    height: 200px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -83,12 +92,14 @@ body {
 
 .card__delete-button {
     align-self: self-end;
-    width: 20px; /* Tamanho pequeno para o botão */
+    width: 20px;
+    /* Tamanho pequeno para o botão */
     height: 20px;
     background-color: #ff5c5c;
     color: white;
     border: none;
-    border-radius: 50%; /* Torna o botão arredondado */
+    border-radius: 50%;
+    /* Torna o botão arredondado */
     cursor: pointer;
     font-size: 12px;
     padding: 0;
@@ -146,16 +157,16 @@ body {
 }
 
 .btn-cadastrar {
-    margin-top: 10px; 
+    margin-top: 10px;
     padding: 10px 15px;
     background-color: #4CAF50;
-    color: white; 
-    border: none; 
+    color: white;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
 }
 
 .btn-cadastrar:hover {
-    background-color: #45a049; 
+    background-color: #45a049;
 }

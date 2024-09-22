@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health care</title>
     <link rel="stylesheet" href="css/styles.css">
@@ -23,29 +24,18 @@
             <div class="content">
                 <header>
                     <h1 class="content__title">Health Overview</h1>
-                    <p class="content__date">September 19, 2024</p>
-                    <button class="btn-cadastrar">Cadastrar</button> <!-- Botão de cadastrar -->
+                    <p class="content__date" id="dataHoje"></p>
+                    <button class="btn-cadastrar">Cadastrar</button>
                 </header>
-                <div class="cards">
-                    <div class="card">
-                        <button class="card__delete-button">X</button> <!-- Botão de exclusão -->
-                        <div class="card__header">
-                            <img src="images/icons/glicose.svg" alt="glicose" class="card__icon">
-                            <h2 class="card__title">Blood Sugar</h2>
-                        </div>
-                        <p class="card__value">80 mg/dl</p>
-                        <p class="card__status">Normal</p>
-                        <img src="images/icons/grafic.svg" alt="grafic">
-                    </div>
+                <div class="cards" id="cards">
                 </div>
             </div>
 
-            <footer class="footer">
-                Último cadastro no sistema: 19 de setembro de 2024
+            <footer class="footer" id="footer">
             </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
